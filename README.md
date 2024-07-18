@@ -6,7 +6,7 @@
 ## Overview
 You have become frustrated with all the advertisements in your inbox. You resolve to create a spam detector to filter out the spam. The spam detector will use a dataset of E-Mails (spam or otherwise) to train your program to recognize whether or not new E-Mails are spam. The program will use a unigram approach [1], where each word is counted and associated with whether or not the message is spam. Your program will calculate probabilities based on each word’s frequency [2]. Luckily, you have not emptied your spam folder or inbox in quite a while, so you have many samples to use to train your system. 
 
-- Check the `Canvas/Assingments/Assignment 01` for more the detailed instructions.
+
 
 ### SpamDetectorServer - Endpoints
 
