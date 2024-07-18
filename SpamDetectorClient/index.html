@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+
+  <h1>Spam Analysis Dashboard</h1>
+  <h2>The table below displays the results of our spam detection algorithm</h2>
+  <div class = "content">
+
+    <table id= "table-content">
+      <thead>
+        <tr>
+          <th>Files</th>
+          <th>Spam Probability (%)</th>
+          <th>Class</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="app">
+    <aside class = "sidebar">
+      <h3>Menu</h3>
+      <nav class="menu">
+        <a href="#" class="menu-item is-active">Dashboard</a>
+        <a href="#" class="menu-item">About</a>
+      </nav>
+    </aside>
+  </div>
+
+  <div id ="right-sidebar">
+
+    <table id= "table-data">
+      <thead>
+      <tr>
+        <th>Accuracy:</th>
+        <th>Precision:</th>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+  </div>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
